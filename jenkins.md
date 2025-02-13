@@ -1,6 +1,7 @@
 1. Install Java
-sudo apt update
-sudo apt install openjdk-17-jre
+   ```
+   sudo apt update
+   sudo apt install openjdk-17-jre
 
 3. Install jenkins 
 curl -fsSL https://pkg.jenkins.io/debian/jenkins.io-2023.key | sudo tee \
