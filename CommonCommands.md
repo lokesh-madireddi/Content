@@ -16,3 +16,4 @@
 ```sudo resize2fs /dev/xdva1```
 
 This is how you can allocate the space to your file system in realtime 
+Before doing all these you should increase the size of instance in portal
