@@ -1,3 +1,5 @@
+# File Size Increase
+
 1. Command used to check the file size in a VM/EC2
 ``` df -h ```
 
@@ -18,3 +20,6 @@
 This is how you can allocate the space to your file system in realtime.
 
 Before doing all these you should increase the size of instance in portal
+
+
+# Content
