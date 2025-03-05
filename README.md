@@ -27,5 +27,16 @@ After creating many images for many services we will create a docker compose fil
 ```docker compose up -d``` Command used to create all the containers/networks/volumes in specified order in background(-d).
 ```docker compose down``` Command used to delete all the containers/networks/volumes which it created previously.
 
+# Docker vs Kubernetes
+  Docker Compose is used to run multiple containers with configuration.
+  Kubernetes is container orchestration platform (have advantages mentioned below)
+1. Service Discovery (Docker containers are ephemeral in nature - short lived - IP change)
+2. High Availability
+3. load balancing
+4. Integration with API Gateway
+5. Disaster Recovery
+
+ 
+
 
 
