@@ -23,3 +23,9 @@ Create a Dockerfile based on the code.
 
 # Docker compose
 After creating many images for many services we will create a docker compose file to run all these images in a sequential way.
+
+```docker compose up -d``` Command used to create all the containers/networks/volumes in specified order in background(-d).
+```docker compose down``` Command used to delete all the containers/networks/volumes which it created previously.
+
+
+
