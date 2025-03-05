@@ -36,7 +36,22 @@ After creating many images for many services we will create a docker compose fil
 4. Integration with API Gateway
 5. Disaster Recovery
 
- 
+ I.  Local Kubernetes Platforms - minikube, k3s, kind, k3d etc.
+ II. kubeadm is used in 2 or more EC2 instances 
+
+ # Managed Kubernetes 
+  Advantages 
+    1. upgrades
+    2. control planes & Data planes
+    3. scaling
+    4. UI
+    5. cost
+      Providers
+         1. AWS - EKS (Elastic Kubernetes service)
+         2. Azure - (Azure Kubernetes service)
+         3. Google - (Google Kubernetes Engine)
+    
+
 
 
 
