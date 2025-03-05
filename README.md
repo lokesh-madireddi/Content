@@ -20,3 +20,6 @@ After this create a Dockerfile for this perticular service
 
 # Build Python based Microservice 
 Create a Dockerfile based on the code.
+
+# Docker compose
+After creating many images for many services we will create a docker compose file to run all these images in a sequential way.
