@@ -1,7 +1,22 @@
-# Content
+# Kubectl
 
 Kubectl - It is a Kubernetes command line tool which is used to interact with Kubernetes API service through terminal.
 Go to Official site to install Kubectl in our VM/EC2
 
 Here We have two versions.
 client version (our laptop where we installed Kubectl) and server version (Kubernetes cluster)
+
+# Build java microservice 
+
+install java first 
+Then run gradlew with command ``` ./gradlew installDist ``` in the same Directory
+If any error check Java installed with version mentioned in the gradlew 
+{This install command will do many things like 1.start gradle demon 2.install dependencies 3.perform compilation 4. build application} 
+Then you will get Successed msg
+``` chmod +x ./gradlew ``` this command will give you permissions to the gradlew
+
+This run will create a build directory, check that by running ```ls -ltr``` which will create exicutable/jar files
+After this create a Dockerfile for this perticular service
+
+# Build Python based Microservice 
+Create a Dockerfile based on the code.
