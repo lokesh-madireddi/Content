@@ -46,6 +46,7 @@ After creating many images for many services we will create a docker compose fil
     3. scaling
     4. UI
     5. cost
+      
       Providers
          1. AWS - EKS (Elastic Kubernetes service)
          2. Azure - (Azure Kubernetes service)
