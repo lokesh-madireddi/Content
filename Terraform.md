@@ -1,8 +1,8 @@
 # Terraform 
   Lifecycle
-  1. Terraform init
-  2. Terraform plan
-  3. Terraform apply
+  1. ```terraform init```
+  2. ```terraform plan```
+  3. ```terraform apply```
 
 Advantages :
 1. Supports multiple cloud provider platforms 
@@ -36,4 +36,4 @@ _**State File Management**_ - Captures/records data in Statefile, what it create
 "usually will have 3 folders main.tf(Actual code), variables,tf(variables are defined here), output.tf(To get the output of resources created)"
 
 
-``` **_terraform destroy_** ``` ---> Command used to delete all the resources which are cretaed previously by terraform.
+``` terraform destroy ``` ---> Command used to delete all the resources which are cretaed previously by terraform.
