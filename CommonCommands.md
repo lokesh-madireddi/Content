@@ -22,3 +22,4 @@ Before doing all these you should increase the size of instance in portal
 
 
 # Content
+```sudo apt install unzip -y```  To install unzip.
