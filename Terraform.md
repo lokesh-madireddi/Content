@@ -22,6 +22,7 @@ _**State File Management**_ - Captures/records data in Statefile, what it create
     * Tells terraform to store statefile in _S3 Bucket_ rather storing in local or GIT
     * Can apply policy which get access to few people
     * S3 is popularly used for Remote Backend.
+ 
   **II State Locking**
     * If Two people making changes at same time, Locking mechanism comes into play.
     * If one applying the Terraform, the statefile will get locked.
