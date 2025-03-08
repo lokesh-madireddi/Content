@@ -28,4 +28,9 @@ _**State File Management**_ - Captures/records data in Statefile, what it create
     * If one applying the Terraform, the statefile will get locked.
     * DinamoDB is mostly used to lock the Statefile(statelocking resource).
   
-  
+**Modular Approach** "Eg: EKS and VPC"
+    * Modules are reusable items.
+    * Will have Modules folder where we have all the pre-written code for creating resources.
+    * we just need to invoke the modules in out main.tf file.
+"usually will have 3 folders main.tf(Actual code), variables,tf(variables are defined here), output.tf(To get the output of resources created)"
+**_#terraform destroy#_** ---> Command used to delete all the resources which are cretaed previously by terraform.
