@@ -34,5 +34,16 @@
   su - jenkins 
 
 12. check jenkin user able to run Docker or not 
-   docker run hello-world 
+   docker run hello-world
+
+
+If Creating any Master - Worker nodes by using Jenkins, make sure java should be installed in all the nodes 
+Private key of master node should be configured in Jenkins and Public key should be configured in Worker node.
+
+Try not to run jobs in Master Node. All the containers should run on Worked node.
+
+"Role-Based Autherization Strategy" - Install this plugin in Jenkins to grant access to different users.
+Then Manage jenkings --> Security --> Authraization "Role Based Strategy" ---> Save 
+Then comes option to assign roles.
+
 
