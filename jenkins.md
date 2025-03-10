@@ -47,5 +47,5 @@ Then Manage jenkings --> Security --> Authraization "Role Based Strategy" ---> S
 Then comes option to assign roles.
 
 
-In Jenkins We have concepts like Agents, Role Based Access control, Shared Libraries.
+In Jenkins We have concepts like Agents, Role Based Access control, Shared Libraries, Email notifications.
 
