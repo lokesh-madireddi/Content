@@ -46,6 +46,6 @@ Try not to run jobs in Master Node. All the containers should run on Worked node
 Then Manage jenkings --> Security --> Authraization "Role Based Strategy" ---> Save 
 Then comes option to assign roles.
 
-
+Trivy - used to scan images for Vulnarabilities.
 In Jenkins We have concepts like Agents, Role Based Access control, Shared Libraries, Email notifications.
 
