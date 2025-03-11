@@ -5,6 +5,7 @@
   3. ```terraform apply```
 
   ```terraform configure``` - To configure aws with terraform by providing secret keys from AWS console.
+  
 Advantages :
 1. Supports multiple cloud provider platforms 
 2. It Adstracts and heavylifting for you (Takes care of interaction). Only we need to create HCL files
