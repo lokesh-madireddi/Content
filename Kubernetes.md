@@ -9,3 +9,6 @@
   * Service Discovery
       1. Labels and Selectors comes to play.
       2. This will connect to pods based on lables and selectors not with IP Address.
+
+Kubectl actually depend on a file call kubeconfig file which contains list of clusters.
+There contains CONTEXT which will tell that you to which cluster you connected to at the point of time
