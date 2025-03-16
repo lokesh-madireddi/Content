@@ -11,9 +11,12 @@
       2. This will connect to pods based on lables and selectors not with IP Address.
 
 Kubectl actually depend on a file call kubeconfig file which contains list of clusters.
+
 There contains CONTEXT which will tell that you to which cluster you connected to at the point of time - 
 ```kubectl config view``` , ```kubectl config current-context```
+
 To switch the context - ```kubectl config use-context <Context_name>``` 
+
 Install AWS CLI to configure the context. then ----> ```aws eks update-kubeconfig --region <region> --name <cluster_name>```
 ```kubectl get nodes``` ---> to check the nodes configured
 
