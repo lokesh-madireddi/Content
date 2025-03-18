@@ -9,6 +9,8 @@
   * Service Discovery
       1. Labels and Selectors comes to play.
       2. This will connect to pods based on lables and selectors not with IP Address.
+      3. Environment variable configured in one pod will take care of lables and selectors.
+      4. Service also allows external users to contact the application.
 
 Kubectl actually depend on a file call kubeconfig file which contains list of clusters.
 
