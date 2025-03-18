@@ -137,6 +137,7 @@ To check status
     Disadvantages - It is declarative(Various features), Cost, Only cretae ALB not F5, nginx. CCM will not work if you use other than AWS.
     
     Ingress comes to play here -
+    
        I. It can be declarative by yaml file.
     
        II. It is cost effective -  you can cretae one LB for different services
