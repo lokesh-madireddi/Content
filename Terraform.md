@@ -5,6 +5,7 @@
   3. ```terraform apply```
 
   ```terraform configure``` - To configure aws with terraform by providing secret keys from AWS console.
+  ```terraform validate``` - To validate.
   
 Advantages :
 1. Supports multiple cloud provider platforms 
