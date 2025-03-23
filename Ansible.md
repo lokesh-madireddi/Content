@@ -9,3 +9,5 @@ Here we need a Master/control Node and other are known as Manage nodes.
 
 Inventry is a file where you define the manage nodes.
 
+1. Password-less Authentication 
+ ```ssh-copy-id -f "-o identityFile <pem file>" ubuntu@IP```
