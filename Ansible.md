@@ -8,3 +8,4 @@ We can write scripts in Playbooks which is in Yaml and it is agent less but need
 Here we need a Master/control Node and other are known as Manage nodes.
 
 Inventry is a file where you define the manage nodes.
+
