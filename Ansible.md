@@ -6,7 +6,6 @@ Puppet --> Chef --> Salt --> Ansible
 For Puppet and Chef, need to install agent in servers.
 We can write scripts in Playbooks which is in Yaml and it is agent less but need python as pre-requisite.
 Here we need a Master/control Node and other are known as Manage nodes.
-
 Inventry is a file where you define the manage nodes.
 
 1. Password-less Authentication 
@@ -19,3 +18,13 @@ But to run this the instance should be configured with password
 then update authentication to yes 
 In /etc/ssh/ there are files called ssh_config and sshd_config update the passwordauthentication as yes 
 To set password ```sudo passwd ubuntu```
+To restart the SSH ```sudo systemctl restart ssh```
+Create inventry.ini file and configure your servers in format user@IP.
+
+To run perticular commands on seleted group of servers ```ansible -i inventry.ini -m <module of command> -a <argument/command to run> <groupname>```
+
+Here we have two type to give commands 1. Play Books(When you have many steps to run)/reusable 2. Adhoc commands (When you have simple steps)
+
+
+
+
