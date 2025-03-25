@@ -44,6 +44,26 @@ Here we have two type to give commands 1. Play Books(When you have many steps to
         group: root
         mode: '0644'
 ```
+# Roles
+Condidering Readability and Modularity in Ansible, Roles comes to play
+```ansible-galaxy role init <name>```
+This will create a Role with the given name and create all the required files in the folder(i.e. files,templates,vars,tasks, tests, meta,defaults, handlers)
 
+Structure of Ansible Roles
+```
+<role_name>/
+  ├── defaults/
+  │   └── main.yml
+  ├── files/
+  ├── handlers/
+  │   └── main.yml
+  ├── meta/
+  │   └── main.yml
+  ├── tasks/
+  │   └── main.yml
+  ├── templates/
+  ├── vars/
+      └── main.yml
+```
 
 
