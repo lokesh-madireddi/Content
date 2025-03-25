@@ -25,6 +25,23 @@ To run perticular commands on seleted group of servers ```ansible -i inventry.in
 
 Here we have two type to give commands 1. Play Books(When you have many steps to run)/reusable 2. Adhoc commands (When you have simple steps)
 
+# Example inventry File
+```---
+ - hosts: all
+  become: true
+  tasks:
+    - name: Install apache httpd
+      ansible.builtin.apt:
+        name: apache2
+        state: present
+        update_cache: yes
+    - name: Copy file with owner and permissions
+      ansible.builtin.copy:
+        src: index.html
+        dest: /var/www/html
+        owner: root
+        group: root
+        mode: '0644'```
 
 
 
