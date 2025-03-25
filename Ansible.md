@@ -26,7 +26,8 @@ To run perticular commands on seleted group of servers ```ansible -i inventry.in
 Here we have two type to give commands 1. Play Books(When you have many steps to run)/reusable 2. Adhoc commands (When you have simple steps)
 
 # Example inventry File
-```---
+```
+---
  - hosts: all
   become: true
   tasks:
@@ -41,7 +42,8 @@ Here we have two type to give commands 1. Play Books(When you have many steps to
         dest: /var/www/html
         owner: root
         group: root
-        mode: '0644'```
+        mode: '0644'
+```
 
 
 
